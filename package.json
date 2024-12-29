@@ -1,0 +1,22 @@
+{
+  "name": "presentations",
+  "scripts": {
+    "marp-help": "marp -h",
+    "marp-sample": "marp src/marp/sample/sample.md -o output/marp/sample/sample.html -w --html --allow-local-files",
+    "marp-java_and_spring_boot_document": "marp src/marp/java_and_spring_boot_document -o output/marp/java_and_spring_boot_document/JavaとSpring_Bootのお役立ちドキュメント.html -w --html --allow-local-files",
+    "slidev-help": "open https://sli.dev/builtin/cli",
+    "slidev-dev-sample": "slidev src/slidev/sample/slides.md --open",
+    "slidev-build-sample": "slidev build",
+    "slidev-export-sample": "slidev export"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.0.4",
+    "@slidev/cli": "^0.51.0-beta.4",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.49.1",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/twemoji": "^1.2.2",
+    "@iconify-json/uim": "^1.2.3"
+  }
+}
