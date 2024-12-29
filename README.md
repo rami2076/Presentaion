@@ -20,9 +20,25 @@
 
 ## 参考
 
-https://marp.app/
-https://blog.jetbrains.com/dotnet/2024/10/01/markdown-powered-slides-in-jetbrains-ides/
-https://sli.dev/
-https://github.com/loftkun/slidev-example/tree/main
-https://sli.dev/resources/addon-gallery
-https://github.com/adobe-fonts/source-han-code-jp/releases
+- Marp
+    - https://marp.app/
+    - https://blog.jetbrains.com/dotnet/2024/10/01/markdown-powered-slides-in-jetbrains-ides/
+- Slidev
+    - official
+        - https://sli.dev/
+        - add-on
+            - https://sli.dev/resources/addon-gallery
+        - theme
+            - https://sli.dev/guide/theme-addon
+        - cli
+            - https://sli.dev/builtin/cli
+        - export
+            - https://sli.dev/guide/exporting
+        - icon
+            - https://sli.dev/features/icons
+    - non-official
+        - https://github.com/loftkun/slidev-example/tree/main
+- Tree
+    - https://tree.nathanfriend.com
+- Font
+    - https://github.com/adobe-fonts/source-han-code-jp/releases

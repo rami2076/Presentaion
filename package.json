@@ -4,10 +4,11 @@
     "marp-help": "marp -h",
     "marp-sample": "marp src/marp/sample/sample.md -o output/marp/sample/sample.html -w --html --allow-local-files",
     "marp-java_and_spring_boot_document": "marp src/marp/java_and_spring_boot_document -o output/marp/java_and_spring_boot_document/JavaとSpring_Bootのお役立ちドキュメント.html -w --html --allow-local-files",
-    "slidev-help": "open https://sli.dev/builtin/cli",
+    "slidev-help": "playwright open https://sli.dev/builtin/cli",
     "slidev-dev-sample": "slidev src/slidev/sample/slides.md --open",
     "slidev-build-sample": "slidev build",
-    "slidev-export-sample": "slidev export"
+    "slidev-export-sample": "slidev export",
+    "playwright-help": "playwright --help"
   },
   "dependencies": {
     "@marp-team/marp-cli": "^4.0.4",
