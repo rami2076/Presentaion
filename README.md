@@ -8,15 +8,36 @@
 |----------|-----------------------|----------------------------------------|
 | Node.js  | Current LTS(v22.12.0) | [link](https://nodejs.org/en/download) |
 
+```
+npm install
+```
+
 ## ディレクトリ構成
+
+以下を参照してください．
+[README_DIRECTORY.md](README_DIRECTORY.md)
 
 ## 実行
 
+以下を参照してください．
+[README_GET_START.md](README_GET_START.md)
+
 ## 追加
 
-## コマンド
+以下を参照してください．
+[README_SLIDE_WORKFLOW.md](./scripts/workflow_for_slides/README_SLIDE_WORKFLOW.md)
+OR
+[README_PACKAGE_JSON_SCRIPTS.md](README_PACKAGE_JSON_SCRIPTS)
 
-## dependenciesの説明
+## package.jsonに登録されているコマンド
+
+以下を参照してください．  
+[README_PACKAGE_JSON_SCRIPTS.md](README_PACKAGE_JSON_SCRIPTS)
+
+## package.jsonのdependenciesの説明
+
+以下を参照してください．  
+[README_DEPENDENCIES.md](README_DEPENDENCIES.md)
 
 ## 参考
 
