@@ -14,19 +14,19 @@ npm install
 
 ## ディレクトリ構成
 
-以下を参照してください．
+以下を参照してください．  
 [README_DIRECTORY.md](README_DIRECTORY.md)
 
 ## 実行
 
-以下を参照してください．
+以下を参照してください．  
 [README_GET_START.md](README_GET_START.md)
 
 ## 追加
 
-以下を参照してください．
-[README_SLIDE_WORKFLOW.md](./scripts/workflow_for_slides/README_SLIDE_WORKFLOW.md)
-OR
+以下を参照してください．  
+[README_SLIDE_WORKFLOW.md](./scripts/workflow_for_slides/README_SLIDE_WORKFLOW.md)  
+OR  
 [README_PACKAGE_JSON_SCRIPTS.md](README_PACKAGE_JSON_SCRIPTS)
 
 ## package.jsonに登録されているコマンド
