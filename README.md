@@ -38,7 +38,10 @@
             - https://sli.dev/features/icons
     - non-official
         - https://github.com/loftkun/slidev-example/tree/main
+        - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
 - Tree
     - https://tree.nathanfriend.com
 - Font
     - https://github.com/adobe-fonts/source-han-code-jp/releases
+- Slidevが依存しているUnoCSS+Vue+Viteの説明
+    - https://zenn.dev/comm_vue_nuxt/articles/vite_vue_unocss_setup

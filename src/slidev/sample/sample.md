@@ -163,33 +163,25 @@ seriphテーマで使えるcoverレイアウトです。このように背景画
 
 [Tailwind CSS](https://tailwindcss.com/docs/animation) のクラスを設定するとAnimationなど面白い効果が狙えるかもしれません。
 
-<div class="grid grid-cols-[50%,50%] gap-4"><div>
-
+<div class="grid grid-cols-[50%,50%] gap-1"><div>
 <center>
-
-<logos-chrome class="text-5xl m-12 animate-bounce"/>
-
-<logos-firefox class="text-5xl m-12 animate-bounce"/>
-
-<logos-microsoft-edge class="text-5xl m-12 animate-bounce"/>
-
+    <logos-chrome class="text-5xl m-4 animate-bounce"/>
+    <logos-firefox class="text-5xl m-4 animate-bounce"/>
+    <logos-microsoft-edge class="text-5xl m-4 animate-bounce"/>
 </center>
-
 </div><div class="content-center">
-
 <center>
-
-<twemoji-grinning-face-with-sweat class="text-5xl m-12 animate-pulse"/>
-<twemoji-party-popper class="text-5xl m-12 animate-ping"/>
-<twemoji-cat-with-tears-of-joy class="text-5xl m-12 animate-spin"/>
-
-<uim-rocket />
-<uim-rocket class="text-3xl text-red-400 mx-2" />
-<uim-rocket class="text-3xl text-orange-400 animate-ping" />
-
+    <twemoji-grinning-face-with-sweat class="text-5xl m-4 animate-pulse"/>
+    <twemoji-party-popper class="text-5xl m-4 animate-ping"/>
+    <twemoji-cat-with-tears-of-joy class="text-5xl m-4 animate-shake"/>
 </center>
-
-</div></div>
+<center>
+    <uim-rocket class="text-5xl m-4"/>
+    <uim-rocket class="text-5xl m-4 text-red-400" />
+    <uim-rocket class="text-5xl m-4 text-orange-400 animate-ping" />
+</center>
+</div>
+</div>
 
 ---
 
