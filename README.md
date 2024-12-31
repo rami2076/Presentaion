@@ -60,6 +60,8 @@ OR
     - non-official
         - https://github.com/loftkun/slidev-example/tree/main
         - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
+        - https://zenn.dev/rinc5/articles/00dc1931efc2bf
+        - https://github.com/loftkun/slidev-example/tree/main
 - Tree
     - https://tree.nathanfriend.com
     - `tree -L 3`
