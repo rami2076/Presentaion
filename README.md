@@ -62,6 +62,8 @@ OR
         - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
 - Tree
     - https://tree.nathanfriend.com
+    - `tree -L 3`
+        - https://qiita.com/koshihikari/items/0906cd8e97b931714efe
 - Font
     - https://github.com/adobe-fonts/source-han-code-jp/releases
 - Slidevが依存しているUnoCSS+Vue+Viteの説明
