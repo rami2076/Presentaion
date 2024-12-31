@@ -85,7 +85,7 @@ marpInputFilePath="$marpInputPath$inputFileName"
 marpOutputFilePath="$marpOutputPath$outputFileName"
 # 相対位置を宣言
 CURRENT="$(cd "$(dirname "$0")" && pwd)"
-echo "$CURRENT"
+echo "実行中のScriptのパス:$CURRENT"
 base="$CURRENT/../../"
 echo "Project Root:$base"
 # 状態の取得
@@ -94,7 +94,9 @@ status="$(get_status "$base$slidevFilePath" "$base$marpInputFilePath")"
 # 状態毎にファイルを作成する
 case ${status} in
   "BOTHExists")
-    echo "BOTHExists";;
+    echo "すでに存在しているテーマ名です．slideName:$slideName" 1>&2
+    echo "BOTHExists Failed" 1>&2
+    exit 1;;
   "SlidevOnlyExits")
     make_file "$base$marpInputPath" "$base$marpInputFilePath"
     echo "SlidevOnlyExits";;
