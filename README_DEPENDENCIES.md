@@ -1,5 +1,7 @@
 # About
 
+`package.json`で依存するライブラリについて説明する
+
 # Dependencies
 
 | Package Name          | Description                           | [Category](#about-category) |
@@ -19,5 +21,3 @@
 |---------------|---------------------------------------------------|-------------------|
 | Marp          | markdownを元にMarpを使ってスライドを作成するパッケージに使用している場合のカテゴリ   | https://marp.app/ |
 | Slidev        | markdownを元にSlidevを使ってスライドを作成するパッケージに使用している場合のカテゴリ | https://sli.dev/  |
-
-
