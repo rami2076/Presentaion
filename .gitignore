@@ -232,4 +232,4 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,node
 
 # Slidev output
-./*-export.pdf
+*-export.pdf
