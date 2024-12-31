@@ -2,7 +2,7 @@
 
 このプロジェクトのディレクトリ構成について説明する
 
-## ディレクトリ構成
+# ディレクトリ構成
 
 ```
 .
@@ -57,3 +57,23 @@ src
 ```
 
 </details>
+
+# 補足
+
+Slidevは，すべての構成を記述していないので下記のドキュメントを参考にして対応してください．
+https://sli.dev/custom/directory-structure
+
+## snapshot(v0.51.0-beta.4)
+
+```
+your-slidev/
+  ├── components/       # custom components
+  ├── layouts/          # custom layouts
+  ├── public/           # static assets
+  ├── setup/            # custom setup / hooks
+  ├── snippets/         # code snippets
+  ├── styles/           # custom style
+  ├── index.html        # injections to index.html
+  ├── slides.md         # the main slides entry
+  └── vite.config.ts    # extending vite config
+```
