@@ -44,6 +44,8 @@ OR
 - Marp
     - https://marp.app/
     - https://blog.jetbrains.com/dotnet/2024/10/01/markdown-powered-slides-in-jetbrains-ides/
+    - syntax
+        - https://github.com/marp-team/marp/blob/main/website/docs/guide/how-to-write-slides.md
 - Slidev
     - official
         - https://sli.dev/
@@ -57,13 +59,24 @@ OR
             - https://sli.dev/guide/exporting
         - icon
             - https://sli.dev/features/icons
+        - syntax
+            - https://sli.dev/guide/syntax
     - non-official
-        - https://github.com/loftkun/slidev-example/tree/main
-        - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
-        - https://zenn.dev/rinc5/articles/00dc1931efc2bf
-        - https://github.com/loftkun/slidev-example/tree/main
+        - tips: export and more...
+            - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
+        - syntax
+            - https://zenn.dev/rinc5/articles/00dc1931efc2bf
+        - example
+            - https://github.com/loftkun/slidev-example/tree/main
+        - syntax highlight
+            - https://zenn.dev/rinc5/articles/72106a65de9afb
+        - 目次
+            - https://zenn.dev/rinc5/articles/d0b5fcb086c241
+        - ヘッダー/フッター/ページ番号
+            - https://zenn.dev/rinc5/articles/f0e5532968a258
 - Tree
-    - https://tree.nathanfriend.com
+    - online generator
+        - https://tree.nathanfriend.com
     - `tree -L 3`
         - https://qiita.com/koshihikari/items/0906cd8e97b931714efe
 - Font
