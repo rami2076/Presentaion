@@ -61,6 +61,8 @@ OR
             - https://sli.dev/features/icons
         - syntax
             - https://sli.dev/guide/syntax
+        - slideの設定
+          - https://sli.dev/custom/#headmatter
     - non-official
         - tips: export and more...
             - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
@@ -74,6 +76,8 @@ OR
             - https://zenn.dev/rinc5/articles/d0b5fcb086c241
         - ヘッダー/フッター/ページ番号
             - https://zenn.dev/rinc5/articles/f0e5532968a258
+        - layout
+          - https://zenn.dev/rinc5/articles/b7dc7a3b0bbd30
 - Tree
     - online generator
         - https://tree.nathanfriend.com

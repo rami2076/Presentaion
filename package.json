@@ -13,13 +13,18 @@
     "slidev:export:sample": "slidev export src/slidev/sample/sample.md"
   },
   "dependencies": {
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/twemoji": "^1.2.2",
+    "@iconify-json/uim": "^1.2.3",
     "@marp-team/marp-cli": "^4.0.4",
     "@slidev/cli": "^0.51.0-beta.4",
+    "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
     "playwright-chromium": "^1.49.1",
-    "@iconify-json/logos": "^1.2.4",
-    "@iconify-json/twemoji": "^1.2.2",
-    "@iconify-json/uim": "^1.2.3"
+    "slidev-theme-academic": "^2.1.0",
+    "slidev-theme-eloc": "^1.0.2",
+    "slidev-theme-purplin": "^1.2.0",
+    "slidev-theme-the-unnamed": "^0.0.22"
   }
 }

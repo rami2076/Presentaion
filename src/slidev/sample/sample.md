@@ -1,15 +1,15 @@
 ---
-theme: seriph # https://sli.dev/themes/gallery.html
+theme: default # https://sli.dev/themes/gallery.html
 title: SlidevのMarkdown記法サンプル
 download: false
 lineNumbers: true
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://fastly.picsum.photos/id/130/1920/1080.jpg?hmac=CnS3QcMe52jnvtdE0r_YD6qVMEHsWuY1j998yYdVhC8
 class: 'text-center'
 ---
 
 # SlidevのMarkdown記法<br>サンプル
 
-公式サンプルにないtipsもあるよ
+ここに記載できてないのもあります！
 
 ---
 layout: intro
@@ -17,7 +17,7 @@ layout: intro
 
 # 1章
 
-各章の冒頭スライドはこのように表示されるのですね。
+layoutの種類がいくつかデフォルトで用意されていてlayoutに指定するとこういう風に表示されます．
 
 ---
 layout: intro
@@ -26,16 +26,16 @@ class: 'text-center'
 
 # 1章
 
-center表示もできます。
+classを指定したら場所を中央表示もできます．
 
 ---
 layout: cover
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://fastly.picsum.photos/id/130/1920/1080.jpg?hmac=CnS3QcMe52jnvtdE0r_YD6qVMEHsWuY1j998yYdVhC8
 ---
 
 # 1章
 
-seriphテーマで使えるcoverレイアウトです。このように背景画像も指定できます。
+coverレイアウトです。 <br>このように背景画像も指定できます。
 
 ---
 
@@ -59,24 +59,23 @@ seriphテーマで使えるcoverレイアウトです。このように背景画
 使用するテーマを変えたり、テーマをカスタマイズすることで変更できそうです。<br>
 よいテーマを見つけた/作った方はぜひ教えて下さい。
 
-**これは本文です(太字)**
-
-~~これも本文です(取り消し)~~
-
-*じゃあ私も本文です(イタリック)*
-
+**これは本文です(太字)**  
+~~これも本文です(取り消し)~~  
+*じゃあ私も本文です(イタリック)*  
 なお、&#045;&#045;&#045; を書くとページが区切られます。お試しくださいませ。
 
+---
+layout: two-cols-header
 ---
 
 ## 1.2. リスト
 
 リストの表示を見てみましょう。<br>
-なにげにGridレイアウト使って左右にコンテンツを配置していますのでその記法もご確認ください。
+二段組のレイアウトを使って左右にコンテンツを配置していますのでその記法もご確認ください。
 
-<div class="grid grid-cols-[50%,50%] gap-4"><div>
+::left::
 
-箇条書きリストだよ
+### こちらは箇条書きリスト
 
 - AAAA
     - aaaa
@@ -85,9 +84,9 @@ seriphテーマで使えるcoverレイアウトです。このように背景画
     - bbbb
     - bbbb
 
-</div><div>
+::right::
 
-番号付きリストだよ
+### こちらは番号付きリスト〜
 
 1. AAAA
     1. aaaa
@@ -96,25 +95,21 @@ seriphテーマで使えるcoverレイアウトです。このように背景画
     1. BBBB
     1. bbbb
 
-</div></div>
-
-<br>
-
-普通、Markdownで以下のように書くと [ ]
-部分がチェックボックスとして描画されますけどSlidevではそうならないみたいですね。<br>
+普通、Markdownで`- [ ]`と書くとチェックボックスとして描画されますが，Slidevでは...?  
+まだ，うまく描画されない状態です(0.51.0-beta.4)
 
 - [ ] タスク1
 - [x] タスク2
+    - [x] タスク2-1
 
+---
+layout: full
 ---
 
 ## 1.3. テーブル
 
-テーブルがどのように表示されるか見てみましょう。
-
-突然のPython講義。
-
-[Python](https://www.python.org/)には、シーケンス型に属する型として以下があります。<br>
+テーブルがどのように表示されるか見てみましょう。  
+[Python](https://www.python.org/)には、シーケンス型に属する型として以下があります。
 
 | 型                                                                                                                | 概要                                       |
 |------------------------------------------------------------------------------------------------------------------|------------------------------------------|
@@ -363,3 +358,15 @@ layout: cover
 # My Slide
 
 <Counter :count="4"/>
+
+
+---
+theme: seriph # https://sli.dev/themes/gallery.html
+title: SlidevのMarkdown記法サンプル
+download: false
+lineNumbers: true
+background: https://fastly.picsum.photos/id/130/1920/1080.jpg?hmac=CnS3QcMe52jnvtdE0r_YD6qVMEHsWuY1j998yYdVhC8
+class: 'text-center'
+---
+
+# abc
