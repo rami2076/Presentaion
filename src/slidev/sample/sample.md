@@ -188,7 +188,7 @@ Tailwindのclassを使ってanimation gridを使ったレイアウトの調整�
 ## 1.6. コード
 
 行番号が表示されているのは `lines: true` のおかげです。  
-デフォルトは表示ありです．  
+デフォルト設定で行番号がでているのは，`lineNumbers: true`のおかげです．  
 4行目以降がハイライトされているのは `{4-}` のおかげです。
 
 <div class="grid grid-cols-2 gap-1">
