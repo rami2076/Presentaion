@@ -62,7 +62,7 @@ OR
         - syntax
             - https://sli.dev/guide/syntax
         - slideの設定
-          - https://sli.dev/custom/#headmatter
+            - https://sli.dev/custom/#headmatter
     - non-official
         - tips: export and more...
             - https://github.com/ahandsel/articles/blob/main/slidev-tip-export/slidev-tip-export.md
@@ -77,7 +77,7 @@ OR
         - ヘッダー/フッター/ページ番号
             - https://zenn.dev/rinc5/articles/f0e5532968a258
         - layout
-          - https://zenn.dev/rinc5/articles/b7dc7a3b0bbd30
+            - https://zenn.dev/rinc5/articles/b7dc7a3b0bbd30
 - Tree
     - online generator
         - https://tree.nathanfriend.com
@@ -87,3 +87,6 @@ OR
     - https://github.com/adobe-fonts/source-han-code-jp/releases
 - Slidevが依存しているUnoCSS+Vue+Viteの説明
     - https://zenn.dev/comm_vue_nuxt/articles/vite_vue_unocss_setup
+- CSS
+    - https://zenn.dev/tonkotsuboy_com/articles/css-grid-centering
+    - https://tw-elements.com/docs/standard/extended/center-grid-items/

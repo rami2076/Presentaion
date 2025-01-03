@@ -103,98 +103,101 @@ layout: two-cols-header
     - [x] タスク2-1
 
 ---
-layout: full
+layout: default
 ---
 
 ## 1.3. テーブル
 
 テーブルがどのように表示されるか見てみましょう。  
+リンクの表示も使ってみました！(唐突なPython)  
 [Python](https://www.python.org/)には、シーケンス型に属する型として以下があります。
 
-| 型                                                                                                                | 概要                                       |
-|------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| [リスト](https://docs.python.org/ja/3/library/stdtypes.html#lists)                                                  | データの並びを表現できます。                           |
-| [タプル](https://docs.python.org/ja/3/library/stdtypes.html#tuples)                                                 | リストと同じように使えますが、生成後は中身を変更できないことが保証されています。 |
-| [range](https://docs.python.org/ja/3/library/stdtypes.html#ranges)                                               | 数の並びを表します。ループと組み合わせて使うことが多いです。           |
-| [テキストシーケンス](https://docs.python.org/ja/3/library/stdtypes.html#text-sequence-type-str)                           | いわゆる文字列型です。                              |
-| [バイナリシーケンス](https://docs.python.org/ja/3/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview) | バイナリ(バイト列)を扱えます。                         |
+| 型                                                                                                                | 概要                                            |
+|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [リスト](https://docs.python.org/ja/3/library/stdtypes.html#lists)                                                  | データの並びを表現できます。                                |
+| [タプル](https://docs.python.org/ja/3/library/stdtypes.html#tuples)                                                 | リストと同じように使えますが、<br/>生成後は中身を変更できないことが保証されています。 |
+| [range](https://docs.python.org/ja/3/library/stdtypes.html#ranges)                                               | 数の並びを表します。ループと組み合わせて使うことが多いです。                |
+| [テキストシーケンス](https://docs.python.org/ja/3/library/stdtypes.html#text-sequence-type-str)                           | いわゆる文字列型です。                                   |
+| [バイナリシーケンス](https://docs.python.org/ja/3/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview) | バイナリ(バイト列)を扱えます。                              |
 
+---
+layout: two-cols-header
 ---
 
 ## 1.4. 画像
 
-リロードするたびにランダムで画像が変わります。Gridレイアウトをタイルのようにつかうのも良さそうですね。
+Gridレイアウトをタイルのようにつかうのも良さそうですね。  
+picsumを使っているのでreloadすると画像がランダムで切り替わります．
+::left::
 
-<div class="grid grid-cols-[33%,33%,33%] gap-4"><div>
+## [Random](https://picsum.photos/)
 
-[Nature](https://unsplash.com/t/nature)
+![](https://picsum.photos/300/120?random=1)
 
-![](https://source.unsplash.com/category/nature/320x140)
+## [Random2](https://picsum.photos/)
 
-</div><div>
+![](https://picsum.photos/300/120?random=2)
 
-[Technology](https://unsplash.com/t/technology)
+::right::
 
-![](https://source.unsplash.com/category/technology/320x140)
+## [Seedの指定](https://picsum.photos/)
 
-</div><div>
+![](https://picsum.photos/seed/Travel/450/100?blur=2)
 
-[Travel](https://unsplash.com/t/travel)
+## Local
 
-![](https://source.unsplash.com/category/travel/320x140)
-
-</div></div>
-
-画像などのassetsは`public`ディレクトリに格納すると良いです。SPAのドキュメントルートにコピーされます。
+画像などのassetsは`/public`ディレクトリ配置するとrootにcopyされます．
 
 ![](/img/piano.jpg)
 
 
 ---
+layout: center
+---
 
 ## 1.5. アイコン
 
-[Icons | Slidev](https://sli.dev/guide/syntax.html#icons) に利用可能なアイコンの情報があります。
+[Icons | Slidev](https://sli.dev/features/icons#icons) にアイコンの参照方法が記載されています．  
+各ロゴは，`npm install`しておく必要があります．
 
-[Tailwind CSS](https://tailwindcss.com/docs/animation) のクラスを設定するとAnimationなど面白い効果が狙えるかもしれません。
+<div class="grid grid-cols-3">
 
-<div class="grid grid-cols-[50%,50%] gap-1"><div>
-<center>
-    <logos-chrome class="text-5xl m-4 animate-bounce"/>
-    <logos-firefox class="text-5xl m-4 animate-bounce"/>
-    <logos-microsoft-edge class="text-5xl m-4 animate-bounce"/>
-</center>
-</div><div class="content-center">
-<center>
-    <twemoji-grinning-face-with-sweat class="text-5xl m-4 animate-pulse"/>
-    <twemoji-party-popper class="text-5xl m-4 animate-ping"/>
-    <twemoji-cat-with-tears-of-joy class="text-5xl m-4 animate-shake"/>
-</center>
-<center>
-    <uim-rocket class="text-5xl m-4"/>
-    <uim-rocket class="text-5xl m-4 text-red-400" />
-    <uim-rocket class="text-5xl m-4 text-orange-400 animate-ping" />
-</center>
+[//]: # (row-1)
+  <div><logos-chrome class="text-5xl m-4 animate-bounce"/></div>
+  <div><logos-firefox class="text-5xl m-4 animate-bounce"/></div>
+  <div><logos-microsoft-edge class="text-5xl m-4 animate-bounce"/></div>
+
+[//]: # (row-2)
+  <div><twemoji-grinning-face-with-sweat class="text-5xl m-4 animate-pulse"/></div>
+  <div><twemoji-party-popper class="text-5xl m-4 animate-ping"/></div>
+  <div><twemoji-cat-with-tears-of-joy class="text-5xl m-4 animate-shake"/></div>
+
+[//]: # (row-3)
+  <div><uim-rocket class="text-5xl m-4"/></div>
+  <div><uim-rocket class="text-5xl m-4 text-red-400" /></div>
+  <div><uim-rocket class="text-5xl m-4 text-orange-400 animate-back-in-up" /></div>
 </div>
-</div>
+
+Tailwindのclassを使ってanimation gridを使ったレイアウトの調整も可能です．
+
+- [Tailwind CSS(animation)](https://tailwindcss.com/docs/animation)
+- [Tailwind CSS(grid)](https://tailwindcss.com/docs/grid-template-columns)
 
 ---
 
 ## 1.6. コード
 
-<style>
-.language-bash span.line { /* bashのコード */
-  margin-left: -40px; /* 左に40px移動して行番号を隠す(邪道) */
-}
-</style>
-
-行番号が表示されているのは `lineNumbers: true` のおかげです。<br>
+行番号が表示されているのは `lines: true` のおかげです。  
+デフォルトは表示ありです．  
 4行目以降がハイライトされているのは `{4-}` のおかげです。
 
-<div class="grid grid-cols-[50%,50%] gap-4"><div>
-before
+<div class="grid grid-cols-2 gap-1">
 
-```python {4-}
+<div>
+
+## Before
+
+```python {4-}{lines:true}
 import os
 test_path = os.path.join("data", "data-01.txt")
 
@@ -203,8 +206,11 @@ f.write("this is new append line\n")
 f.close()
 ```
 
-</div><div>
-after
+</div>
+
+<div>
+
+## After
 
 ```python {4-}
 import os
@@ -214,12 +220,13 @@ with open(test_path, "a", encoding="utf-8") as f:
     f.write("this is new append line\n")
 ```
 
-</div></div>
+</div>
+</div>
 
-以下は行番号を表示しないようにしてみました。<br>
-この章の&lt;style&gt;に指定している`language-bash span.line`をご参照ください。
+[こちら](https://sli.dev/features/code-block-line-numbers)
+を参考にして行番号を非表示することもできました
 
-```bash
+```bash {lines:false}
 $ ps aux
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           2  0.0  0.0      0     0 ?        S     7月20   0:00 [kthreadd]
@@ -268,47 +275,46 @@ $$
 
 ## 1.8. Twitter
 
-<style>
-.language-markdown span.line { /* markdownのコード */
-  margin-left: -40px; /* 左に40px移動して行番号を隠す(邪道) */
-}
-</style>
-
-
 Vueのコンポーネントが使えるので簡単に埋め込めます。<br>
 画像ではないので文字コピーやリンククリックもできます。
 
-<div class="grid grid-cols-[40%,60%] gap-4"><div>
+<div class="grid grid-cols-10">
 
-<br><br><br>
-
+<div class="col-span-4 mt-30">
 Markdownに書くのはこれだけでOK。
 
 ```markdown
-<Tweet id="1423237009561186308"/>
+<Tweet id="1390680015721795591"/>
 ```
 
-</div><div>
+</div>
 
-<Tweet id="1423237009561186308"/>
 
-</div></div>
+<div  class="col-span-6 place-self-center">
+<Tweet id="1390680015721795591" scale="0.75"/>
+</div>
 
-参考になったよという方はぜひTwitterのフォローといいねをポチッとしていただけると喜びます。
+</div>
 
 ---
+layout: center
+---
 
-## 1.9. YouTube
+## 1.9. YouTube動画の埋め込み
 
-YouTube動画の埋め込みコード(HTML)を貼りつけてみました。動画が埋め込めています。<br>
-スライド上で動画を再生できるのは画面切り替えが不要なので嬉しいですね。
+こういう風にYoutubeの表示できます．
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQmr5MLpF_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+[//]: # (YouTube動画の埋め込みコード&#40;HTML&#41;を貼りつけてみました。動画が埋め込めています。  )
 
-YouTubeに限らず、各種サイトで埋め込みコードが用意されているものはスライドに埋め込める可能性があります。<br>
-ただし&lt;scrpit&gt;タグで埋め込むタイプのコンテンツは埋め込めないかもです。
+[//]: # (スライド上で動画を再生できるのは画面切り替えが不要なので嬉しいですね。  )
+
+[//]: # (YouTubeに限らず、各種サイトで埋め込みコードが用意されているものはスライドに埋め込める可能性があります。  )
+
+[//]: # (ただし&lt;scrpit&gt;タグで埋め込むタイプのコンテンツは埋め込めないかもです。)
+
+<Youtube id="ekr2nIex040" width="560" height="315" />
+
+[//]: # (<iframe width="560" height="315" src="https://www.youtube.com/embed/ekr2nIex040?si=GADdFis6n-y9kRdP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
 
 ---
 
@@ -359,14 +365,3 @@ layout: cover
 
 <Counter :count="4"/>
 
-
----
-theme: seriph # https://sli.dev/themes/gallery.html
-title: SlidevのMarkdown記法サンプル
-download: false
-lineNumbers: true
-background: https://fastly.picsum.photos/id/130/1920/1080.jpg?hmac=CnS3QcMe52jnvtdE0r_YD6qVMEHsWuY1j998yYdVhC8
-class: 'text-center'
----
-
-# abc
