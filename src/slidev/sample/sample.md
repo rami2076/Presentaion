@@ -349,19 +349,67 @@ graph LR
 ```
 
 ---
+layout: center
+---
+
+## 1.11. Flowchart diagrams
+
+PlantUMLを使ったユースケース図の描画．
+
+```plantuml
+@startuml
+left to right direction
+actor "Amazon Primeユーザー" as User
+actor "インターネットサービス" as Internet
+actor "ストリーミングサーバー" as Server
+
+rectangle スマホアプリ {
+  usecase "ログイン" as Login
+  usecase "動画検索" as Search
+  usecase "動画再生" as Play
+  usecase "再生履歴保存" as SaveHistory
+}
+
+rectangle ユーザーデータ管理 {
+  usecase "会員資格を確認" as VerifyMembership
+  usecase "再生履歴の更新" as UpdateHistory
+}
+
+User -down-> Login : "ログイン操作"
+Login --> VerifyMembership : "会員資格を確認"
+
+User -down-> Search : "動画を検索"
+Search --> Internet : "サーバーにリクエスト送信"
+
+User -down-> Play : "動画を視聴"
+Play --> VerifyMembership : "資格を再確認"
+Play --> Server : "ストリーミングデータ取得"
+Server --> Play : "動画データ送信"
+
+Play --> SaveHistory : "視聴完了通知"
+SaveHistory --> UpdateHistory : "履歴を更新"
+UpdateHistory --> Internet : "データベースに記録"
+@enduml
+```
+
+---
+layout: section
+---
+
+## 1.12. カスタムComponent
+
+Vueで作成したComponentを`./components`に配置すると，簡単に使用可能です．  
+[こちら](https://sli.dev/builtin/components)を参照すると事前に用意されているComponentを確認可能です．
+
+<div class="grid grid-cols-1 gap-none place-items-center">
+    <div ><Counter :count="4"/></div>
+</div>
+
+
+---
 layout: cover
 ---
 
 # ご清聴ありがとうございました。
 
 よいSlidevライフを！
-
-
----
-
-## 1.8. Twitter
-
-# My Slide
-
-<Counter :count="4"/>
-
