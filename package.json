@@ -6,11 +6,14 @@
     "marp:help": "marp -h",
     "slidev:help": "playwright open https://sli.dev/builtin/cli",
     "playwright:help": "playwright --help",
-    "marp:generate:java_and_spring_boot_document": "marp src/marp/java_and_spring_boot_document -o output/marp/java_and_spring_boot_document/JavaとSpring_Bootのお役立ちドキュメント.html -w --html --allow-local-files",
     "marp:generate:sample": "marp src/marp/sample/sample.md -o output/marp/sample/sample.html -w --html --allow-local-files",
     "slidev:open:sample": "slidev src/slidev/sample/sample.md --open",
     "slidev:build:sample": "slidev build src/slidev/sample/sample.md --out out",
-    "slidev:export:sample": "slidev export src/slidev/sample/sample.md"
+    "slidev:export:sample": "slidev export src/slidev/sample/sample.md",
+    "marp:generate:java_and_spring_boot_document": "marp src/marp/java_and_spring_boot_document/java_and_spring_boot_document.md -o output/marp/java_and_spring_boot_document/java_and_spring_boot_document.html -w --html --allow-local-files",
+    "slidev:open:java_and_spring_boot_document": "slidev src/slidev/java_and_spring_boot_document/java_and_spring_boot_document.md --open",
+    "slidev:build:java_and_spring_boot_document": "slidev build src/slidev/java_and_spring_boot_document/java_and_spring_boot_document.md --out out",
+    "slidev:export:java_and_spring_boot_document": "slidev export src/slidev/java_and_spring_boot_document/java_and_spring_boot_document.md"
   },
   "dependencies": {
     "@iconify-json/logos": "^1.2.4",
@@ -23,8 +26,8 @@
     "@slidev/theme-seriph": "^0.25.0",
     "playwright-chromium": "^1.49.1",
     "slidev-theme-academic": "^2.1.0",
+    "slidev-theme-dracula": "^0.2.0",
     "slidev-theme-eloc": "^1.0.2",
-    "slidev-theme-purplin": "^1.2.0",
     "slidev-theme-the-unnamed": "^0.0.22"
   }
 }
