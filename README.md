@@ -4,9 +4,10 @@
 
 ## 環境構築
 
-| Required | Expected Version      | Install link                           |
-|----------|-----------------------|----------------------------------------|
-| Node.js  | Current LTS(v22.12.0) | [link](https://nodejs.org/en/download) |
+| Required | Expected Version      | Install link                                                                          |
+|----------|-----------------------|---------------------------------------------------------------------------------------|
+| Node.js  | Current LTS(v22.12.0) | [link](https://nodejs.org/en/download)                                                |
+| git lfs  | -                     | [link](https://git-lfs.com/) <br/>1. `brew install git-lfs`<br/>2. ` git lfs install` |
 
 ```
 npm install
