@@ -214,8 +214,10 @@ https://github.com/spring-projects/spring-boot/blob/383f1964e62e4ad5626ad8d52fe0
 ---
 layout: center
 ---
-サポート
-https://spring.io/projects/spring-boot#support
-https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
-https://qiita.com/gate9/items/7351557829d7e1e668e9
-![](/img/support.png)
+
+# サポートしているバージョン
+
+- https://spring.io/projects/spring-boot#support
+- https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+- https://qiita.com/gate9/items/7351557829d7e1e668e9
+  <img class="h-90" src="/img/support.png">
