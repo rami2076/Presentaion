@@ -159,3 +159,63 @@ layout: fact
 
 ## importするクラス名もわかって嬉しい
 
+---
+layout: section
+---
+
+# Spring Bootで設定できる項目を知りたい
+
+---
+layout: default
+---
+
+# Spring Bootで設定できる項目を知りたい
+
+| 方法             | Note                         |
+|----------------|------------------------------|
+| 検索して出てきたブログを見る | バージョンが古くて使えなかったり非推奨になっていたりする |
+| Referenceを確認する | Referenceがあるので確認してみよう        |
+
+## Referenceをみてみよう！
+
+![](/img/search3.png)
+
+`Spring reference properties`
+
+---
+layout: default
+---
+
+# Referenceをみてみよう！
+
+- 英語版
+    - https://docs.spring.io/spring-boot/appendix/application-properties/index.html
+- 日本語版
+    - https://spring.pleiades.io/spring-boot/appendix/application-properties/
+
+## Githubで管理されているので情報を追うことはできるんですが，昔の情報はとても追いづらいです．
+
+### 理由
+
+- 3.3よりも古いバージョンは管理されているディレクトリが変更されている．
+    - 3.3
+        - [src/docs/antora/modules/appendix/pages/application-properties/index.adoc](https://github.com/spring-projects/spring-boot/blob/3.3.x/spring-boot-project/spring-boot-docs/src/docs/antora/modules/appendix/pages/application-properties/index.adoc)
+    - 2.7
+        - [src/docs/asciidoc/application-properties.adoc](https://github.com/spring-projects/spring-boot/blob/2.7.x/spring-boot-project/spring-boot-docs/src/docs/asciidoc/application-properties.adoc)
+
+# バージョンは上げておきましょう．
+
+<!--
+https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-docs
+https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spring-boot-docs/src/docs/antora/modules/appendix/pages/application-properties/index.adoc
+https://github.com/spring-projects/spring-boot/blob/383f1964e62e4ad5626ad8d52fe0fcdfe37152f4/spring-boot-project/spring-boot-docs/src/docs/antora/modules/ROOT/pages/redirect.adoc?plain=1#L237
+-->
+
+---
+layout: center
+---
+サポート
+https://spring.io/projects/spring-boot#support
+https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
+https://qiita.com/gate9/items/7351557829d7e1e668e9
+![](/img/support.png)
