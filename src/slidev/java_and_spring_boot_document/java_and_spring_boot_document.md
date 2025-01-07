@@ -216,6 +216,7 @@ layout: section
 ---
 
 # おまけ
+
 Spring Bootのサポート状況のReferenceを載せておきます
 
 ---
@@ -228,3 +229,9 @@ layout: center
 - https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions
 - https://qiita.com/gate9/items/7351557829d7e1e668e9
   <img class="h-90" src="/img/support.png">
+
+---
+layout: section
+---
+
+# ご清聴ありがとうございました
