@@ -3,6 +3,7 @@ theme: apple-basic # https://sli.dev/themes/gallery.html
 title: JavaとSpring Bootに関連するドキュメント
 lineNumbers: true
 background: https://fastly.picsum.photos/id/130/1920/1080.jpg?hmac=CnS3QcMe52jnvtdE0r_YD6qVMEHsWuY1j998yYdVhC8
+layout: section
 htmlAttrs:
   lang: jp
 ---
