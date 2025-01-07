@@ -212,6 +212,13 @@ https://github.com/spring-projects/spring-boot/blob/383f1964e62e4ad5626ad8d52fe0
 -->
 
 ---
+layout: section
+---
+
+# おまけ
+Spring Bootのサポート状況のReferenceを載せておきます
+
+---
 layout: center
 ---
 
